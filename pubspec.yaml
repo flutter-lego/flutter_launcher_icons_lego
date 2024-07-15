@@ -3,7 +3,7 @@ description: "app icon, web favicon generator lego."
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/flutter_launcher_icons_lego
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'

@@ -16,7 +16,9 @@ lego create
 lego add flutter_launcher_icons_lego
 ```
 
-3. modify in `pubspec.yaml` file below code block.
+3. change app icon png in `assets/lego/flutter_launcher_icons_lego` directory.
+
+4. modify in `pubspec.yaml` file below code block.
 ```yaml
 flutter_icons:
   image_path_android: "assets/lego/flutter_launcher_icons_lego/android.png"
