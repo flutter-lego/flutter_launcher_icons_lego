@@ -1,7 +1,7 @@
 name: flutter_launcher_icons_lego
 description: "app icon, web favicon generator lego."
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/lego
+repository: https://github.com/flutter-lego/flutter_launcher_icons_lego
 
 version: 1.0.0
 
