@@ -1,0 +1,55 @@
+name: flutter_launcher_icons_lego
+description: "app icon, web favicon generator lego."
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/lego
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: #@add
+  gap: #@add
+  june_flow_util:
+  styled_widget: #@add
+  modal_bottom_sheet: #@add
+  keyboard_attachable: #@add
+  flutter_zoom_drawer: #@add
+  flutter_screenutil:
+  bot_toast:
+  flutter_launcher_icons: #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  screenutil_lego: #@add
+  bot_toast_lego: #@add
+  widget_binding_lego: #@add
+
+flutter:
+  assets:
+    - assets/lego/flutter_launcher_icons_lego/
+  uses-material-design: true
+
+#@add start
+flutter_icons:
+  image_path_android: "assets/lego/flutter_launcher_icons_lego/android.png"
+  image_path_ios: "assets/lego/flutter_launcher_icons_lego/ios.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#ffffff" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/lego/flutter_launcher_icons_lego/android.png" # only available for Android 8.0 devices and above
+  web:
+    generate: true
+    image_path: "assets/lego/flutter_launcher_icons_lego/web.png"
+    background_color: "#ffffff"
+    theme_color: "#ffffff"
+#@add end
+
+topics:
+  - lego
